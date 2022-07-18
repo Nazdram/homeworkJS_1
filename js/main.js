@@ -99,7 +99,8 @@ console.log(myPow);
 // Мама мыла раму, рама мыла маму
 
 // strObj
-var strObj = {str: 'Мама мыла раму, рама мыла маму'};
+var strObj = {};
+strObj.str = 'Мама мыла раму, рама мыла маму';
 strObj.length = strObj.str.length;
 console.log(strObj);
 /*
